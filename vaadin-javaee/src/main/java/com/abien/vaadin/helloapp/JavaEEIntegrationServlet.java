@@ -13,13 +13,10 @@ public class JavaEEIntegrationServlet extends AbstractApplicationServlet {
     @Inject @VaadinApplication
     Application application;
 
-    
-
     @Override
     protected Class<? extends Application> getApplicationClass() throws ClassNotFoundException {
         return application.getClass();
     }
-
     @Override
     protected Application getNewApplication(HttpServletRequest request) throws ServletException {
         return application;

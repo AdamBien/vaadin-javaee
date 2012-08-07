@@ -18,5 +18,4 @@ import javax.inject.Qualifier;
 @Qualifier
 @Retention(RUNTIME)
 @Target({FIELD, TYPE})
-public @interface VaadinApplication {
-}
+public @interface VaadinApplication {}
