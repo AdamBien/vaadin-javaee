@@ -1,4 +1,4 @@
-package com.organization.application.standard;
+package com.vaadin.standard;
 
 import com.vaadin.cdi.annotation.DeployableVaadinRoot;
 import com.vaadin.terminal.WrappedRequest;
